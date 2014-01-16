@@ -1,0 +1,2 @@
+#imgContainer > img { opacity: 1; transition: opacity 1000ms; }
+#imgContainer > img.hiddenUntilPreloaded { opacity: 0; }
