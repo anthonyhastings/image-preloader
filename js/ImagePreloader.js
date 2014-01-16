@@ -1,6 +1,6 @@
 /**
  *  ImagePreloader v1.0
- *  http://www.bitbucket.org/antwan1986
+ *  https://bitbucket.org/antwan1986/image-preloader
  *
  *  Copyright 2013 Anthony Hastings.
  *  Non-commercial use is licensed under the GPL v3 License.
