@@ -28,10 +28,11 @@
     function ImagePreloader(imageSrc, callbackFunc) {
         var img = document.createElement('img');
 
-        img.addEventListener('load', function() {
+        img.addEventListener('load', function onImageLoaded() {
             if (typeof(callbackFunc) === 'function' && callbackFunc.call) {
                 callbackFunc.call();
             }
+            img.removeEventListener('click', onImageLoaded, false);
             img = null;
         }, false);
 
