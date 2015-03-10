@@ -1,10 +1,10 @@
 /**
- *  ImagePreloader v1.0
- *  https://bitbucket.org/antwan1986/image-preloader
+ *    ImagePreloader v1.0
+ *    https://github.com/antwan1986/image-preloader
  *
- *  Copyright 2013 Anthony Hastings.
- *  Non-commercial use is licensed under the GPL v3 License.
+ *    This library may be freely distributed under the MIT license.
  */
+
 (function(root, factory) {
     'use strict';
 
